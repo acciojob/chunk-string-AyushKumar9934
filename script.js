@@ -16,12 +16,12 @@ let strlength=str.length;
 	while(k<strlength){
 		tempres+=str[k++];
 	}
-	
+	if(tempres.length>0)
 	res.push(tempres);
 	return res;
 }
 
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+// const str = prompt("Enter String.");
+// const size = prompt("Enter Chunk Size.");
+// alert(stringChop(str, size));
